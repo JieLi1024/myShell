@@ -1,4 +1,7 @@
 README
+
+myShell is a shell interpreter which combines behavior from common shells including bash and csh.
+
 ------------------ Functions of myShell ---------------------------
 Part 1: Parsing and Executing Commands
 	1.1 Use Lex and Yacc to preprocess input commands/arguments
