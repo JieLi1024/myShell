@@ -99,10 +99,7 @@ void Command::execute() {
         return;
     }
 
-    // Print contents of Command data structure
-    //print();
 
-    // Add execution here
     // For every simple command fork a new process
     // Setup i/o redirection
     // and call exec
