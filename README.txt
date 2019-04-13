@@ -34,9 +34,11 @@ Part 3: Expansions, Wildcards, and Line Editing
 		● Right arrow key: Move the cursor to the right and allow insertion at that position. If the cursor is at the end of the line it does nothing.
 		● Delete key (ctrl­D): Removes the character at the cursor. The characters in the right side are shifted to the left.
 		● Backspace key (ctrl­H): Removes the character at the position before the cursor. The characters in the right side are shifted to the left.
-		● Home key (ctrl­A): The cursor moves to the beginning of the line ● End key (ctrl­E): The cursor moves to the end of the line
+		● Home key (ctrl­A): The cursor moves to the beginning of the line 
+		● End key (ctrl­E): The cursor moves to the end of the line
 	3.5: History
-		● Up arrow key: Shows the previous command in the history list. ● Down arrow key: Shows the next command in the history list.
+		● Up arrow key: Shows the previous command in the history list. 
+		● Down arrow key: Shows the next command in the history list.
 	3.6: Path completion: When the <tab> key is typed, the editor will try to expand the current word to the matching files similar to what csh and bash do
 	3.7: Variable prompt
 		The shell has a default prompt indicator: myprompt>. If there is an environment variable called PROMPT, my shell can print the value of that variable as the prompt instead.
